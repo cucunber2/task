@@ -147,6 +147,7 @@ private:
 
 size_t Array::minsize = 10;
 size_t Array::maxsize = 10000;
+size_t Array::maxsize = 20000;
 
 Array create_Array(double* array, int size) {
 	return Array(array, size);
